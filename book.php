@@ -21,6 +21,7 @@ $book = $stmt->fetch();
 </head>
 <body>
     <h2><?= $book['title']; ?></h2>
+    <a href="edit.php">muuda</a>
 </body>
 </html>
 
